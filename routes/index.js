@@ -1,3 +1,10 @@
+/*
+File Name: index.js
+Name: Sravan Kumar Reddy Konudula
+Id: 301237930
+Date: 2nd October 2022
+*/
+
 var express = require('express');
 var router = express.Router();
 
@@ -31,6 +38,7 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact'});
 });
 
+/* POST contact us page and redirect to home page */
 router.post('/contact', (req, res) => {
   console.log(req.body);      
   res.render('index', { title: 'Home'});
