@@ -1,0 +1,66 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">My Projects</h1>
+      
+      <p>
+        I have worked on below projects
+      </p>
+      <table class="table table-dark">
+        <thead>
+          <tr>
+          <th scope="col">#</th>
+          <th scope="col">Project Name</th>
+          <th scope="col">Project description</th>
+          <th scope="col">Roles and responsibilities</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="col">1</td>
+          <td>High Volume Tax Trust Engine (HVTT)</td>
+          <td>HVTT application is developed for KPMG US entity and the main purpose of the application is to help tax preparers to file taxes for banks and trust. Earlier, this was a monolithic application, due to per- formance issues divided into multiple micro services based such as Banks, Accounts, Taxpayer, Pro- ject and Item. </td>
+          <td>
+            <ul>
+              <li>Analyzing and understanding the business requirements.</li>
+              <li>Developed different APIs based on project requirement</li>
+              <li>Analyzing and solving performance issues.</li>
+          </ul>
+          </td></tr>
+        <tr>
+          <td scope="col">2</td>
+          <td>Phibro Intranet portal</td>
+          <td>This portal is used for employees to fill timesheets, acess payroll information.</td>
+          <td>
+            <ul>
+              <li>Developed of image slider using jQuery and bxlisder</li>
+              <li>Integrated Yammer webpart in SharePoint page</li>
+              <li>Moved to Production environment using share gate tool</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td scope="col">3</td>
+          <td>Gilead</td>
+          <td>This web application is developed using Microsoft SharePoint and through this users can access drug information such as which is available for delivery, which drugs are under research etc.</td>
+          <td>
+            <ul>
+              <li>Developed custom calendar using full calendar js library</li>
+              <li>Populated data from user profiles to display user related details</li>
+              <li>Developed content query webpart to display content from different sites in site collection</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  

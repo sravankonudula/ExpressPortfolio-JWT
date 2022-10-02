@@ -1,0 +1,50 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Contact</h1>
+      <p></p>
+      <form method="post" action="/contact">
+      <div class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 35%">
+        <div>Name: Sravan Kumar Reddy Konudula</div>
+        
+        <div>Mobile: <a href="tel:+14167322604">+1 (416) 732-2604</a></div>
+        <div>e-Mail: <a href = "mailto: sravan567@gmail.com">sravan567@gmail.com</a></div>
+      </div>
+      <div class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 80%">
+      <p><b>Please fill below form for any queries. I will get back to you.</b></p>
+        <div class="form-group">
+          <label for="usr">First Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Last Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Contact Number:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Email Address:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="comment">Message:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <input type="submit" class="btn btn-info" value="Submit">
+        <p></p>
+    </form>
+
+      </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
