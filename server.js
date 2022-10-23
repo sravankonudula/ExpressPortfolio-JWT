@@ -10,7 +10,7 @@ Id: 301237930
 Date: 2nd October 2022
 */
 
-var app = require('./app');
+var app = require("./server/config/app");
 var debug = require('debug')('week-4:server');
 var http = require('http');
 
@@ -18,7 +18,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '5555');
 app.set('port', port);
 
 /**
