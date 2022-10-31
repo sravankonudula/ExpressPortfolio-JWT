@@ -1,3 +1,9 @@
+/*
+  File Name: user.js
+  Author Name: Sravan Kumar Konudula
+  Student Id: 301237930
+  Web App Name: Express portfolio - JWT
+*/
 // require modules for the User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");

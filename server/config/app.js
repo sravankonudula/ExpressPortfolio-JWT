@@ -1,3 +1,10 @@
+/*
+  File Name: app.js
+  Author Name: Sravan Kumar Konudula
+  Student Id: 301237930
+  Web App Name: Express portfolio - JWT
+*/
+
 // installed 3rd party packages
 let createError = require("http-errors");
 let express = require("express");
