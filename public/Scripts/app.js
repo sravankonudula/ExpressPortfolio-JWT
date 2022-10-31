@@ -14,7 +14,8 @@ Date: 2nd October 2022
         button.addEventListener("click", (event) => {
           if (!confirm("Are you sure")) {
             event.preventDefault();
-            window.location.assign("/book-list");
+            // window.location.assign("/book-list");
+            window.location.assign("/business-contacts-list");
           }
         });
       }

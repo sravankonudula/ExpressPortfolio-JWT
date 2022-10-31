@@ -96,7 +96,7 @@ passport.deserializeUser(User.deserializeUser());
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-app.use("/book-list", booksRouter);
+// app.use("/book-list", booksRouter);
 app.use("/business-contacts-list", businesscontactsRouter);
 
 // catch 404 and forward to error handler
